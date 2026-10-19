@@ -4,3 +4,7 @@ Hello Git!
 这是我在feature分支上开发的新功能！
 Git分支冲突练习：我是feature版本
 这是我为Pull Request专门开发的新功能！
+Git分支冲突练习：我是master版本！
+Git分支冲突练习：我是feature版本
+我已经学会将本地 Git 仓库上传到 GitHub 啦！
+这是我学习 git pull 的同步测试！
