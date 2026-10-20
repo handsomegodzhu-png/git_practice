@@ -8,3 +8,5 @@ cmake-build-*/
 # 临时文件
 *.tmp
 *.log
+# 学生管理系统运行时生成的数据
+StudentManagementSystem/StudentData.txt

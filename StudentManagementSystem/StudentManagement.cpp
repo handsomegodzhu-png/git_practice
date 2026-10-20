@@ -45,13 +45,27 @@ cin>>s.name;
 
 cout<<"请输入语文成绩: ";
 cin>>s.chinese;
+ while (s.chinese < 0 || s.chinese > 100)
+    {
+        cout << "成绩不合法，请输入 0~100 之间的成绩：";
+        cin >> s.chinese;
+    }
 
-cout<<"请输入数学成绩: ";
+    cout<<"请输入数学成绩: ";
 cin>>s.math;
+ while (s.math < 0 || s.math > 100)
+    {
+        cout << "成绩不合法，请输入 0~100 之间的成绩：";
+        cin >> s.math;
+    }
 
-cout<<"请输入英语成绩: ";
+    cout<<"请输入英语成绩: ";
 cin>>s.english;
-
+ while (s.english < 0 || s.english > 100)
+    {
+        cout << "成绩不合法，请输入 0~100 之间的成绩：";
+        cin >> s.english;
+    }
 Students.push_back(s);
 
 cout<<"学生添加成功！"<<endl;
